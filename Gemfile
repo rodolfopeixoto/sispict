@@ -23,11 +23,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~> 3.2.1'
+  gem 'shoulda-matchers'
 end
 
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'bullet'
+  gem 'brakeman', :require => false
 end
 
 group :test do
@@ -36,3 +39,5 @@ end
 
 # Code Analyzer
 gem 'rubocop', require: false
+gem "rails_best_practices"
+gem "rubycritic", :require => false
