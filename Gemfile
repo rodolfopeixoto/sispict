@@ -34,3 +34,5 @@ group :test do
   gem 'capybara', '~> 2.4'
 end
 
+# Code Analyzer
+gem 'rubocop', require: false
